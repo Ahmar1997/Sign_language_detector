@@ -22,7 +22,7 @@ Numpy 1.19.3 or later
 The dataCollection.py script allows you to collect training data using your webcam.
 
 To collect data for a specific alphabet (e.g. A) change the variable `folder` to A, B or C to collect respective images and run the following command: 
-`python collect_data.py`  
+`python dataCollection.py`  
 
 You can collect data for multiple alphabets by running the script multiple times with different labels.
 
