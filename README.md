@@ -44,7 +44,7 @@ Download the TensorFlow model (a .h5 file) and save it to the model folder.
 The test_model.py script allows you to test the trained model using your webcam.
 
 To test the model, run the following command:  
-`python test.py  
+`python test.py`  
 
 The script will display the webcam feed with the predicted alphabet label overlaid on top of the hand region.
 
