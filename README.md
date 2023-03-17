@@ -5,8 +5,8 @@ This Python project utilizes computer vision and machine learning to detect and 
 ## Requirements
 To run this project, you need:
 
-Python 3.6 or later
-OpenCV 4.2.0 or later
+Python 3.6 or later  
+OpenCV 4.2.0 or later  
 Numpy 1.19.3 or later
 
 
