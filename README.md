@@ -15,7 +15,7 @@ Numpy 1.19.3 or later
 
 ## Installation
 1. Clone this repository to your local machine using the following command:  
-`!git clone https://github.com/Ahmar1997/document-scanner-using-OpenCV.git`
+`!git clone https://github.com/Ahmar1997/Sign_language_detector.git`
 
 2. Install the required Python packages by running the following command:  
 `pip install opencv-python`  
