@@ -30,7 +30,7 @@ while True:
         imgCropShape = imgCrop.shape
         
         
-        aspectRatio = h / w                                         # centering the image in the fram
+        aspectRatio = h / w                                         # centering the image in the frame
  
         if aspectRatio > 1:
             k = imgSize / h
