@@ -2,7 +2,7 @@
 
 This Python project utilizes computer vision and machine learning to detect and recognize American Sign Language (ASL) alphabets A, B, and C in real-time through the webcam.
 
-![image](https://user-images.githubusercontent.com/116836999/225981886-4f4d57db-9001-45c4-b0d4-fd53c961e12b.png)
+![ASL](https://user-images.githubusercontent.com/116836999/225982125-a558929a-599b-4d67-bc83-0b43018088d3.png)
 
 
 ## Requirements
