@@ -4,8 +4,8 @@ import numpy as np
 import math
 import time
 
-cap = cv2.VideoCapture(0)
-detector = HandDetector(maxHands = 1)
+cap = cv2.VideoCapture(0)                   # capturing feed from webcam
+detector = HandDetector(maxHands = 1)           # hand detector module
 
 offset = 20
 imgSize = 300
@@ -13,12 +13,12 @@ imgSize = 300
 counter = 0
 
 
-folder = 'Data/C'
+folder = 'Data/C'               # change to A, B to collect data
 
-while True:
+while True:                                 
     
-    success, img = cap.read()
-    hands, img = detector.findHands(img)
+    success, img = cap.read()                       
+    hands, img = detector.findHands(img)        # capturing hand from images
     if hands:
         hand = hands[0]
         x,y,w,h = hand['bbox']
@@ -30,7 +30,7 @@ while True:
         imgCropShape = imgCrop.shape
         
         
-        aspectRatio = h / w
+        aspectRatio = h / w                                         # centering the image in the fram
  
         if aspectRatio > 1:
             k = imgSize / h
@@ -59,7 +59,7 @@ while True:
     
     
     key = cv2.waitKey(1)
-    if key == ord('s'):
+    if key == ord('s'):                     # capturing images using the 's' key
         counter = counter + 1
         cv2.imwrite(f'{folder}/Image_{time.time()}.jpg', imgWhite)
         print(counter)
