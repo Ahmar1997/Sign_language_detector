@@ -51,6 +51,14 @@ To test the model, run the following command:
 
 The script will display the webcam feed with the predicted alphabet label overlaid on top of the hand region.
 
+
+## Results
+
+![A](https://user-images.githubusercontent.com/116836999/225985536-05bffc4a-a611-4127-98fb-c0136d22c31d.png)
+![B](https://user-images.githubusercontent.com/116836999/225985571-76d3ba23-f6f1-4fa0-8867-da8380951205.png)
+![C](https://user-images.githubusercontent.com/116836999/225985616-4f6beba7-1a41-4dd9-a0dc-8c619a59bc40.png)
+
+
 ## Conclusion
 This project demonstrates how computer vision and machine learning can be used to recognize American Sign Language alphabets in real-time using a webcam. The trained model can be used to build more advanced applications such as ASL translators and communication aids.
 `
